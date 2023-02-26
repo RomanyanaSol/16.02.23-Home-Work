@@ -1,0 +1,44 @@
+.form{
+    box-sizing: border-box;
+    width: 1100px;
+    margin: 90px auto;
+    padding: 24px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #2C3E50;
+}
+
+.form input{
+    height: 33px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #D9D9D9;
+}
+
+.form select{
+    height: 55px;
+    font-size: 20px;
+    width: 178px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #D9D9D9;
+    cursor: pointer;
+    color: #696868;
+
+}
+
+.form button{
+    height: 55px;
+    font-size: 20px;
+    width: 178px;
+    padding: 17px;
+    border: none;
+    border-radius: 20px;
+    background-color: #16A085;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
